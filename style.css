@@ -1,0 +1,20 @@
+#button{
+  transition: font-size 3s, color 2s;/время перехода
+ 
+}
+#number{
+  display: inline-block;
+}
+
+#closer{
+  width: 20px;
+  font: 29px monospace;
+  overflow: hidden;
+}
+
+#number.animate{/* как измениться элемент после клика*/
+  transform: translate(-90%);/*движение слева направо*/
+  transition-property: transform;
+  transition-duration: 10s;
+  transition-timing-function: linear;
+}
